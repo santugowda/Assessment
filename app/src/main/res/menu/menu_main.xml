@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.santhosh.assessment.MainActivity">
+    <item
+        android:id="@+id/action_big_files"
+        android:orderInCategory="100"
+        android:title="@string/action_big_files" />
+
+    <!--
+    <item
+        android:id="@+id/action_average_size"
+        android:orderInCategory="200"
+        android:title="@string/action_average_size" />
+    -->
+    <item
+        android:id="@+id/action_frequent_file"
+        android:orderInCategory="300"
+        android:title="@string/action_frequent_file" />
+</menu>
